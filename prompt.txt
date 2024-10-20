@@ -1,0 +1,3 @@
+Translate the following C code into safe, idiomatic Rust code. Return only the Rust code, no other text.
+
+
