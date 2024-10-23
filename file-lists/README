@@ -1,0 +1,5 @@
+c_file_list.txt: These files do not depend on libm.h
+rust_file_list.txt: A list of all the source files in the Rust rewrite of musl libm
+common_files.txt: Functions implemented in both C and Rust
+translatable.txt: These math functions have been implemented in both C and Rust, and the C version does not depend on headers such as libm.h
+testable.txt: These are the Rust functions from translatable.txt which have unit tests already written
