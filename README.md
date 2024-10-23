@@ -17,3 +17,6 @@ libm was chosen as the basis for this benchmark because math functions are well 
 - Of these 35 functions, 8 have unit tests already written. These 8 functions can be used for benchmarking without any additional work.
 - ChatGPT can effectively generate Rust unit tests for these well-defined math functions
 - Since libm.h defines simple functions and macros, it can either be translated to Rust as its own module, or each definition a file needs can be preprocessed in before translation.
+
+## Limitations
+- Since libm is a collection of math functions, many of Rust's more advanced features are not necessary. So although this is a real world codebase, other codebases will need to be found to create benchmarks that deal more with state management and object hierarchies.
